@@ -1,0 +1,29 @@
+[project]
+name = "TT-Sprint11-Project"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.3"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+# E/F: basic pyflakes/pycodestyle
+# I: import sorting
+# D: pydocstyle rules - add if needed for docstring checking of Style, Formatting, Structure
+ignore = []
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-q"
+testpaths = ["tests"]

@@ -1,0 +1,33 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.env
+.env.*
+
+# Builds
+build/
+dist/
+*.egg-info/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Common DS outputs (adjust per project)
+outputs/
+*.pkl
+*.joblib
+
+# VS Code (add comment if you need to track .vscode/ folder)
+.vscode/
+
+*Zone.Identifier
