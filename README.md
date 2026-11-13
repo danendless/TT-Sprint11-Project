@@ -131,8 +131,6 @@ The notebooks contain the complete analysis, derivations, outputs, and discussio
 
 ## Repository Structure
 
-A suggested layout for publication is:
-
 ```text
 TT-Sprint11-Project/
 ├── README.md

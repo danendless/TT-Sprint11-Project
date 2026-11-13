@@ -131,8 +131,6 @@ Os notebooks contêm a análise completa, as demonstrações matemáticas, os re
 
 ## Estrutura do Repositório
 
-A estrutura sugerida para publicação é:
-
 ```text
 TT-Sprint11-Project/
 ├── README.md
