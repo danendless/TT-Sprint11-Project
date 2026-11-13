@@ -147,7 +147,7 @@ TT-Sprint11-Project/
 │       ├── age_only_confusion_matrix.en.png
 │       └── age_only_confusion_matrix.pt-BR.png
 ├── data/
-│   └── insurance_us.csv             # Only if redistribution is permitted
+│   └── insurance_us.csv
 └── notebooks/
     ├── notebook.en-US.ipynb
     └── notebook.pt-BR.ipynb
